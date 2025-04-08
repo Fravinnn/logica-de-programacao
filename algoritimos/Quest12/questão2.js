@@ -15,12 +15,12 @@ var text3 = "MC entre 35 e 39,9 é considerado obesidade grau II"
 var text4 = "IMC acima de 40 é considerado obesidade grau III ou mórbida"
 var text5 = "resultado igual a: "
 var text6 = "Formula: IMC = peso / (altura * altura)"
-var text7 = "variavel 1 = altura: "
-var text8 = "variavel 2 = peso: "
+var text7 = "variavel 1 = altura: " + num1 + "M"
+var text8 = "variavel 2 = peso: " + num2 + "KG"
 
 
-console.log(text7, num1 + "m")
-console.log(text8, num2 + "kg")
+console.log(text7)
+console.log(text8)
 console.log(text6)
 console.log(text5, resultado, text1)
 

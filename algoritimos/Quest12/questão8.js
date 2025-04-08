@@ -7,11 +7,11 @@ var soma = (num1 * num2)/100
 var resultado = num1 + soma
 
 var text = "novo Sálario: R$"
-var text2 = "variavel 1 = Salario inicial: "
-var text3 = "variavel 2 = Aumento Salárial de: "
+var text2 = "variavel 1 = Salario inicial: R$"
+var text3 = "variavel 2 = Aumento Salárial de: " + num2 + "%"
 
-console.log(text2 + "R$" + num1)
-console.log(text3 + num2 + "%")
+console.log(text2 + num1)
+console.log(text3)
 console.log(text + resultado)
 
 

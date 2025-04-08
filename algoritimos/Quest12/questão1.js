@@ -11,13 +11,11 @@ var num3 = 8;
 var soma = num1 + num2 + num3
 var soma1 = num1 * num2
 
-var resultado = soma
-var resultado1 = soma1
-var resultado2 =  num3 - soma1
+var resultado =  num3 - soma1
 
 var text = num1 + "+" + num2 + "+" + num3 + ":"
 var text2 = num1 + "*" + num2 + ":"
-var text3 = num3 + " subtraido por " + resultado1 + "." + " resposta:" 
+var text3 = num3 + " subtraido por " + soma1 + "." + " resposta:" 
 var text4 = "variavel 1: "
 var text5 = "variavel 2: "
 var text6 = "variavel 3 "
@@ -25,9 +23,9 @@ var text6 = "variavel 3 "
 console.log(text4, num1)
 console.log(text5, num2)
 console.log(text6, num3)
-console.log(text, resultado)
-console.log(text2, resultado1)
-console.log(text3, resultado2)
+console.log(text, soma)
+console.log(text2, soma1)
+console.log(text3, resultado)
 
 
 
