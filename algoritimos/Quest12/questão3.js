@@ -2,19 +2,20 @@
 
 var num1 = 368;
 var num2 = 7;
-var text = "Formula: Preço * Desconto(%) / 100 " 
-var text1 = "Desconto: "
-var text2 = "Preço Final: R$"
-var text3 = "variavel 1 = Preço: R$"
-var text4 = "variavel 2 = Desconto: " + num2 + "%"
 
 var soma = num1 * num2 / 100
 var resultado = num1 - soma
 
+var text = "Formula: Preço * Desconto(%) / 100 " 
+var text1 = "Desconto: " + soma + "%"
+var text2 = "Preço Final: R$"
+var text3 = "variavel 1 = Preço: R$"
+var text4 = "variavel 2 = Desconto: " + num2 + "%"
+
 console.log(text3 + num1)
 console.log(text4)
 console.log(text)
-console.log(text1, soma + "%")
+console.log(text1)
 console.log(text2 + resultado)
 
 
