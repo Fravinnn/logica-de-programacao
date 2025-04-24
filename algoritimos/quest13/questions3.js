@@ -7,7 +7,9 @@ if(num1 % 2 == 0 ){
 } else {
     console.log(num1, "é Impar");
 }
- 
+
+
+
 
 
 
